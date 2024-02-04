@@ -1,10 +1,9 @@
-
-https://github.com/Ramadan290/PanelParadiseBetaVersion/assets/156870497/c6f27284-c1e5-4606-bf82-1fdc96361bcd
 # PanelParadiseBetaVersion
 Android App Displaying Anime and Manga Side by Side
 With Firebase for Login and Registratiton
 Note : if u want to run it u can either use it in an already built project with a build gradle
 
+Here is a preview of the App:
 
 https://github.com/Ramadan290/PanelParadiseBetaVersion/assets/156870497/ada6ab14-cfdb-41c4-9f7b-889d049e530f
 
