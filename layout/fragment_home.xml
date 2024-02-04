@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#713ABE"
+    tools:context=".Home_Fragment">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="10dp"
+        android:text="Panel Paradise (BETA)"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView3"
+        app:layout_constraintEnd_toStartOf="@+id/textView8"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="52dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="8dp"
+        android:drawableLeft="@drawable/baseline_broadcast_on_home_24"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="390dp"
+        android:layout_height="769dp"
+        android:background="#E5CFF7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <View
+                android:id="@+id/divider5"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="?android:attr/listDivider" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="398dp"
+                android:background="#E5CFF7"
+                android:backgroundTint="#E5CFF7">
+
+                <ImageButton
+                    android:id="@+id/torobvluffy"
+                    android:layout_width="match_parent"
+                    android:layout_height="240dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/luffyvroblucci"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <Button
+                    android:id="@+id/toluffy"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/baseline_play_circle_outline_24"
+                    android:text="Play"
+                    android:translationY="342dp" />
+
+                <EditText
+                    android:id="@+id/editTextTextMultiLine"
+                    android:layout_width="387dp"
+                    android:layout_height="109dp"
+                    android:ems="10"
+                    android:gravity="start|top"
+                    android:inputType="textMultiLine"
+                    android:text="luffy head to head with rob lucci of CP9 a deadly battle ahead where luffy launches his third gear and breaks past his limit"
+                    android:translationX="2dp"
+                    android:translationY="242dp"
+                    tools:ignore="LabelFor" />
+
+            </androidx.cardview.widget.CardView>
+
+            <View
+                android:id="@+id/divider3"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/listDivider" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="430dp"
+                android:background="#E5CFF7"
+                android:backgroundTint="#E5CFF7">
+
+                <ImageButton
+                    android:id="@+id/toerwindansho"
+                    android:layout_width="match_parent"
+                    android:layout_height="240dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/erwindansho"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <Button
+                    android:id="@+id/toerwin"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/baseline_play_circle_outline_24"
+                    android:text="Play"
+                    android:translationY="373dp" />
+
+                <EditText
+                    android:id="@+id/editTextTextMultiLine3"
+                    android:layout_width="390dp"
+                    android:layout_height="133dp"
+                    android:ems="10"
+                    android:gravity="start|top"
+                    android:inputType="textMultiLine"
+                    android:text="The Beast Titan clearing off the whole shiganshina district but the great leader of the scouts regiment erwin smith launches a final suicide attack as a last resort for humanity inside the walls....."
+                    android:translationX="2dp"
+                    android:translationY="242dp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <View
+                android:id="@+id/divider4"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/listDivider" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="454dp"
+                android:background="#E5CFF7"
+                android:backgroundTint="#E5CFF7">
+
+                <ImageButton
+                    android:id="@+id/imageButton6"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/zoro"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <Button
+                    android:id="@+id/tozoro"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/baseline_play_circle_outline_24"
+                    android:text="Play"
+                    android:translationY="380dp" />
+
+                <EditText
+                    android:id="@+id/editTextTextMultiLine4"
+                    android:layout_width="399dp"
+                    android:layout_height="137dp"
+                    android:ems="10"
+                    android:gravity="start|top"
+                    android:inputType="textMultiLine"
+                    android:text="One of the most formidable swordsman in the world and the vice captain of the future king of the pirates goes head to head with the yonko's right henchman &quot;king&quot; who will come victorious in this ferocious battle ......."
+                    android:translationX="2dp"
+                    android:translationY="242dp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <View
+                android:id="@+id/divider7"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/listDivider" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="415dp"
+                android:background="#E5CFF7"
+                android:backgroundTint="#E5CFF7">
+
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/gonvpitou" />
+
+                <Button
+                    android:id="@+id/to_gon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/baseline_play_circle_outline_24"
+                    android:text="Play"
+                    android:translationY="360dp" />
+
+                <EditText
+                    android:id="@+id/editTextTextMultiLine6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:gravity="start|top"
+                    android:inputType="textMultiLine"
+                    android:text="Gon intimidates pitou who is trying to treat kumogi , Killua tries his best to calm Gon down but it looks like gon has reached his limit and is ready to avenge kaitou"
+                    android:translationY="250dp" />
+            </androidx.cardview.widget.CardView>
+
+            <View
+                android:id="@+id/divider8"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/listDivider" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="600dp"
+                android:background="#E5CFF7"
+                android:backgroundTint="#E5CFF7">
+
+                <ImageButton
+                    android:id="@+id/imageButton10"
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/gojo"
+                    tools:ignore="SpeakableTextPresentCheck" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

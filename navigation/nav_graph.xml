@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/home_Fragment">
+
+    <fragment
+        android:id="@+id/home_Fragment"
+        android:name="com.example.panelparadisebetaversion.Home_Fragment"
+        android:label="fragment_ani_manga"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_home_Fragment_to_luccivluffy_vid"
+            app:destination="@id/luccivluffy_vid" />
+        <action
+            android:id="@+id/action_home_Fragment_to_zoro_vid"
+            app:destination="@id/zoro_vid" />
+        <action
+            android:id="@+id/action_home_Fragment_to_erwin_vid"
+            app:destination="@id/erwin_vid" />
+        <action
+            android:id="@+id/action_home_Fragment_to_myList_Fragment"
+            app:destination="@id/myList_Fragment" />
+        <action
+            android:id="@+id/action_home_Fragment_to_gon_Fragment"
+            app:destination="@id/gon_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profile_Fragment"
+        android:name="com.example.panelparadisebetaversion.Profile_Fragment"
+        android:label="fragment_account_"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profile_Fragment_to_home_Fragment"
+            app:destination="@id/home_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/erwin_vid"
+        android:name="com.example.panelparadisebetaversion.erwin_vid"
+        android:label="fragment_erwin_vid"
+        tools:layout="@layout/fragment_erwin_vid" >
+        <action
+            android:id="@+id/action_erwin_vid_to_home_Fragment"
+            app:destination="@id/home_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/zoro_vid"
+        android:name="com.example.panelparadisebetaversion.Zoro_vid"
+        android:label="fragment_zoro_vid"
+        tools:layout="@layout/fragment_zoro_vid" >
+        <action
+            android:id="@+id/action_zoro_vid_to_home_Fragment"
+            app:destination="@id/home_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/luccivluffy_vid"
+        android:name="com.example.panelparadisebetaversion.luccivluffy_vid"
+        android:label="fragment_luccivluffy_vid"
+        tools:layout="@layout/fragment_luccivluffy_vid" >
+        <action
+            android:id="@+id/action_luccivluffy_vid_to_home_Fragment"
+            app:destination="@id/home_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/myList_Fragment"
+        android:name="com.example.panelparadisebetaversion.MyList_Fragment"
+        android:label="fragment_my_list_"
+        tools:layout="@layout/fragment_my_list_" >
+        <action
+            android:id="@+id/action_myList_Fragment_to_profile_Fragment"
+            app:destination="@id/profile_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gon_Fragment"
+        android:name="com.example.panelparadisebetaversion.gon_Fragment"
+        android:label="fragment_gon_"
+        tools:layout="@layout/fragment_gon_" />
+    <activity
+        android:id="@+id/login"
+        android:name="com.example.panelparadisebetaversion.Login"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
+    <activity
+        android:id="@+id/registration"
+        android:name="com.example.panelparadisebetaversion.Registration"
+        android:label="activity_registration"
+        tools:layout="@layout/activity_registration" />
+    <activity
+        android:id="@+id/splashScreen"
+        android:name="com.example.panelparadisebetaversion.SplashScreen"
+        android:label="activity_splash_screen"
+        tools:layout="@layout/activity_splash_screen" />
+    <activity
+        android:id="@+id/forgotPassword"
+        android:name="com.example.panelparadisebetaversion.ForgotPassword"
+        android:label="activity_forgot_password"
+        tools:layout="@layout/activity_forgot_password" />
+</navigation>
